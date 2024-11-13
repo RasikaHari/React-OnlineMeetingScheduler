@@ -1,0 +1,192 @@
+/* General Styling */
+body {
+    /* Replace with your desired background image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff; /* White text for contrast against dark background */
+    font-family: Arial, sans-serif;
+  }
+  
+  .scheduling-page {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Slightly transparent black for overall container */
+    border-radius: 8px;
+  }
+  
+  /* Form Section */
+  .form-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: rgba(20, 20, 20, 0.9); /* Darker background for form container */
+    border-radius: 8px;
+    margin-bottom: 40px;
+  }
+  
+  .left-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right-section {
+    flex: 1;
+    background-color: rgba(30, 30, 30, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #e0e0e0; /* Lighter gray for headings */
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #b0b0b0; /* Slightly lighter gray for paragraph text */
+  }
+  
+  ul {
+    margin: 10px 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #cccccc; /* Lighter gray for list items */
+  }
+  
+  /* Form Styling */
+  .form-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #444; /* Dark border */
+    background-color: #222; /* Darker input background */
+    color: #ffffff; /* White text in input */
+  }
+  
+  input:focus, select:focus {
+    border-color: #00b300; /* Bright green on focus */
+    outline: none;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00b300; /* Bright green for buttons */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #009900; /* Darker green on hover */
+  }
+  
+  /* KPI and Features Section */
+  .features-container {
+    padding: 40px;
+    background-color: rgba(20, 20, 20, 0.9);
+    border-radius: 8px;
+  }
+  
+  .kpi-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  
+  .kpi-card {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #333; /* Darker gray for KPI cards */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .kpi-card h3 {
+    font-size: 24px;
+    color: #00b300; /* Bright green for KPI card headings */
+  }
+  
+  .kpi-card p {
+    font-size: 16px;
+    color: #cccccc; /* Lighter gray for KPI card text */
+  }
+  
+  /* Feature Cards Styling */
+  .feature-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Space between cards */
+  }
+  
+  .feature-card {
+    background-color: #222; /* Dark background for feature cards */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .feature-card h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+  }
+  
+  .feature-card p {
+    margin: 0;
+    font-size: 14px;
+    color: #b0b0b0; /* Slightly lighter gray for feature card text */
+  }
+  
+  /* Additional Features Section */
+  .additional-features {
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(20, 20, 20, 0.9);
+    border-radius: 8px;
+  }
+  
+  .team-types {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .team-types button {
+    padding: 12px 20px;
+    background-color: #00b300; /* Bright green for team buttons */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .team-types button:hover {
+    background-color: #009900; /* Darker green on hover */
+  }
+  

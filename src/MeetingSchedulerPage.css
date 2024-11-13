@@ -1,0 +1,123 @@
+/* MeetingSchedulerPage.css */
+
+body {
+    margin: 0; /* Remove default margin */
+    
+    background-color: #0b0c0d; /* Dark background for the entire page */
+    background: linear-gradient(135deg, #0b0c0d, #2a2a2a); /* Optional gradient background */
+}
+
+.meeting-scheduler-container {
+    max-width: 800px; /* Set a maximum width */
+    margin: 0 auto; /* Center the container */
+    padding: 30px; /* Padding around the container */
+    background-color: rgba(42, 40, 40, 0.8); /* Slightly transparent dark background */
+    color: #e0e0e0; /* Light text color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7); /* Increased shadow for depth */
+}
+
+h2 {
+    color: #4CAF50; /* Green for headings */
+    text-align: center; /* Center align headings */
+}
+
+.scheduler-wrapper {
+    display: flex; /* Flexbox layout for calendar and details */
+    justify-content: space-between; /* Space between elements */
+    margin-top: 20px; /* Space above the scheduler wrapper */
+}
+
+.calendar-section,
+.details-section {
+    flex: 1; /* Equal width for both sections */
+    margin-right: 20px; /* Space between calendar and details */
+}
+
+.calendar-section:last-child,
+.details-section:last-child {
+    margin-right: 0; /* Remove margin from the last section */
+}
+
+.transparent-calendar {
+    background-color: transparent; /* Transparent background */
+    border: none; /* Remove default border */
+    color: #e0e0e0; /* Light text color for calendar */
+}
+
+.service-info,
+.time-fixing,
+.form-group {
+    background-color: rgba(42, 42, 42, 0.8); /* Slightly transparent darker background for info sections */
+    border-radius: 6px; /* Rounded corners */
+    padding: 15px; /* Padding inside sections */
+    margin: 10px 0; /* Space between sections */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Shadow for info sections */
+}
+
+h4 {
+    color: #4CAF50; /* Green for subheadings */
+}
+
+button {
+    background-color: #4CAF50; /* Green button background */
+    color: white; /* White text for buttons */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners for buttons */
+    padding: 10px 15px; /* Padding for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+    margin-top: 10px; /* Space above the button */
+    width: 100%; /* Full width for buttons */
+    font-size: 16px; /* Increase font size */
+}
+
+button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+}
+
+input[type="text"],
+input[type="number"],
+input[type="time"] {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Padding inside inputs */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #4CAF50; /* Green border */
+    background-color: #2a2a2a; /* Dark background for inputs */
+    color: #e0e0e0; /* Light text color for inputs */
+    margin-top: 5px; /* Space above inputs */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="time"]:focus {
+    outline: none; /* Remove outline on focus */
+    border-color: #81c784; /* Lighter green border on focus */
+}
+
+/* Additional styles for calendar */
+.react-calendar {
+    background: rgba(27, 27, 27, 0.8); /* Slightly transparent dark background for calendar */
+    border-radius: 10px; /* Rounded corners */
+    color: #e0e0e0; /* Light text color for calendar */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7); /* Increased shadow for calendar */
+}
+
+.react-calendar__tile {
+    background: transparent; /* Transparent background for tiles */
+    color: #e0e0e0; /* Light text color */
+    transition: background 0.3s; /* Smooth transition for hover effect */
+}
+
+.react-calendar__tile:hover {
+    background: rgba(76, 175, 80, 0.3); /* Light green on hover */
+}
+
+.react-calendar__tile--active {
+    background: #4CAF50; /* Green for the active tile */
+    color: white; /* White text for active tile */
+}
+
+.react-calendar__month-view__weekdays {
+    color: #4CAF50; /* Green for weekdays */
+}
