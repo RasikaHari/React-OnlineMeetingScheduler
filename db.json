@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": "77ca",
+      "firstName": "Rasika",
+      "lastName": "H",
+      "email": "rasika@gmail.com",
+      "phone": "1234567890",
+      "password": "Rasi@1"
+    }
+  ],
+  "meetings": [
+    {
+      "id": "37e8",
+      "title": "AJP",
+      "startTime": "12:10",
+      "duration": "60",
+      "date": "2024-10-28T18:30:00.000Z"
+    },
+    {
+      "id": "73ce",
+      "title": "React",
+      "startTime": "11:10",
+      "duration": "90",
+      "date": "2024-10-28T18:30:00.000Z"
+    },
+    {
+      "id": "c3b8",
+      "title": "Operating System",
+      "startTime": "02:30",
+      "duration": "90",
+      "date": "2024-10-29T18:30:00.000Z"
+    },
+    {
+      "id": "d7ae",
+      "title": "Maths",
+      "startTime": "10:30",
+      "duration": "120",
+      "date": "2024-10-30T18:30:00.000Z"
+    },
+    {
+      "id": "f8d7",
+      "title": "React",
+      "startTime": "03:25",
+      "duration": "45",
+      "date": "2024-11-22T18:30:00.000Z"
+    },
+    {
+      "id": "e338",
+      "title": "AJP",
+      "startTime": "11:10",
+      "duration": "60",
+      "date": "2024-10-26T16:34:11.331Z"
+    },
+    {
+      "id": "38f6",
+      "title": "React",
+      "startTime": "16:00",
+      "duration": "120",
+      "date": "2024-10-31T18:30:00.000Z"
+    },
+    {
+      "id": "f33b",
+      "title": "React",
+      "startTime": "13:45",
+      "duration": 30,
+      "date": "2024-10-29T18:30:00.000Z"
+    },
+    {
+      "id": "23e6",
+      "title": "AJP",
+      "startTime": "10:00",
+      "duration": "150",
+      "date": "2024-10-31T18:30:00.000Z"
+    },
+    {
+      "id": "0bfa",
+      "title": "Maths",
+      "startTime": "13:30",
+      "duration": "60",
+      "date": "2024-11-01T18:30:00.000Z"
+    }
+  ]
+}
